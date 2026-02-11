@@ -1,0 +1,141 @@
+.landing-page {
+  min-height: 100vh;
+  background-color: #f7f7ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+
+.landing-content {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.coming-soon {
+  font-family: 'Afacad', sans-serif;
+  font-size: 1.5rem;
+  color: #048575;
+  letter-spacing: -0.02em;
+  margin: 0 0 3rem 0;
+}
+
+.landing-headline {
+  font-family: 'Afacad', sans-serif;
+  font-size: clamp(3rem, 10vw, 8rem);
+  font-weight: 600;
+  color: #2e5553;
+  line-height: 0.94;
+  letter-spacing: -0.03em;
+  margin: 0 0 2.5rem 0;
+}
+
+.landing-headline .exclamation {
+  font-weight: 400;
+}
+
+.landing-description {
+  font-family: 'Afacad', sans-serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  color: #2e5553;
+  line-height: 1.3;
+  max-width: 700px;
+  margin: 0 0 3rem 0;
+}
+
+.instagram-handle {
+  color: #2e5553;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.instagram-handle:hover {
+  text-decoration: underline;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 3rem;
+  background-color: #cbff81;
+  color: #1b4846;
+  font-family: 'Afacad', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  border-radius: 400px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(203, 255, 129, 0.4);
+}
+
+.cta-button:active {
+  transform: scale(0.98);
+}
+
+.hero-image-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 4rem;
+  padding: 0 1rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 80px;
+  object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .landing-page {
+    padding: 3rem 1.5rem;
+  }
+
+  .coming-soon {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+
+  .landing-headline {
+    margin-bottom: 1.5rem;
+  }
+
+  .landing-description {
+    margin-bottom: 2rem;
+  }
+
+  .cta-button {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+  }
+
+  .hero-image-container {
+    margin-top: 3rem;
+  }
+
+  .hero-image {
+    border-radius: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .landing-page {
+    padding: 2rem 1rem;
+  }
+
+  .hero-image {
+    border-radius: 24px;
+  }
+}
