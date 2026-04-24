@@ -43,6 +43,8 @@ function App() {
       <div className="hero-image-container">
         <img src={heroImage} alt="Hoemp app preview" className="hero-image" />
       </div>
+
+      <a style={{ marginTop: '3rem' }} href="https://www.privacypolicies.com/live/9a315df2-e8cf-4aff-bf2f-efb0a714e972">Bekijk on privacy-beleid</a>
     </div>
   )
 }
