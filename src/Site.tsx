@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="hero-image-container">
                 <img src={heroImage} alt="Hoemp app preview" className="hero-image" />
             </div>
-            <Link to="/privacyPolicy">Bekijk ons privacy-beleid</Link>
+            <Link to="privacyPolicy">Bekijk ons privacy-beleid</Link>
         </div>
     )
 }

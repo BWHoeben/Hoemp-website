@@ -1,15 +1,15 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import HomePage from "./Site.tsx";
 import PrivacyPolicy from "./PrivacyPolicy.tsx";
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="/*" element={<HomePage />}/>
-          <Route path="privacyPolicy" element={<PrivacyPolicy />}/>
+          <Route path="/Hoemp-website" element={<HomePage />}/>
+          <Route path="/Hoemp-website/privacyPolicy" element={<PrivacyPolicy />}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   )
 }
 
