@@ -39,114 +39,108 @@ function EnglishPolicy() {
     return (
         <>
             <h1>Privacy Policy</h1>
-            <p className="privacy-updated">Last updated: April 25, 2026</p>
+            <p className="privacy-updated">Last updated: May 2, 2026</p>
 
             <p className="privacy-intro">
-                Hoemp is designed to collect as little data as possible. We do not run
-                backend servers and do not store personal data. This Privacy Policy
-                explains what limited data is involved when you use the app.
+                Hoemp is designed to collect as little data as possible. We do not
+                operate backend servers and do not store any
+                personal data on our own infrastructure.
             </p>
 
             <h2>1. Overview</h2>
             <p>
-                Hoemp does not operate its own backend servers. All functionality runs
-                locally on your device or directly through trusted third-party services
-                such as Google.
+                Hoemp does not operate its own backend servers. The app stores your
+                progress locally on your device and may use platform-provided backup or
+                sync services, such as iCloud on iOS and Android Backup on Android.
             </p>
             <p>
-                As a result, we do not collect, store, or process personal data on our
-                own infrastructure.
+                We do not collect, store, sell, or share personal data on our own
+                infrastructure.
             </p>
 
-            <h2>2. Google Sign-In</h2>
-            <p>You may choose to sign in using your Google account. This is optional.</p>
+            <h2>2. No account required</h2>
             <p>
-                When you sign in, Google may provide basic profile information such as
-                your name and email address.
-            </p>
-            <p>
-                Because Hoemp does not operate backend servers, this information is not
-                stored by us and is only used temporarily to authenticate your session.
+                Hoemp does not require you to sign in with a third
+                party account to use the app.
             </p>
 
-            <h2>3. Google Drive access</h2>
+            <h2>3. Local storage</h2>
             <p>
-                Hoemp may request permission to access your Google Drive to enable core
-                functionality such as creating, editing, and deleting files.
-            </p>
-
-            <div className="privacy-highlight">
-                <strong>Important:</strong> Hoemp only uses Google Drive access to
-                perform actions that you explicitly initiate. We do not access your
-                files for analytics, advertising, profiling, or any unrelated purpose.
-            </div>
-
-            <p>
-                Hoemp does not operate its own backend servers and does not store copies
-                of your Google Drive files.
+                Your progress is stored locally on your device using app storage
+                provided by the operating system.
             </p>
             <p>
-                All file operations happen directly between your device and Google’s
-                infrastructure. Your data remains within your Google account at all
-                times.
+                This data may include your app progress, settings, and other small
+                pieces of information needed for the app to function.
             </p>
 
-            <ul>
-                <li>Create files in your Google Drive</li>
-                <li>Edit files used by the app</li>
-                <li>Delete files when you choose to do so</li>
-            </ul>
-
-            <h2>4. How we use Google user data</h2>
-            <p>Google user data is used only to:</p>
-            <ul>
-                <li>Authenticate you during sign-in</li>
-                <li>Enable interaction with your Google Drive</li>
-                <li>Provide the core functionality of the app</li>
-            </ul>
+            <h2>4. iCloud sync on iOS</h2>
             <p>
-                We do not sell, share, or use Google user data for advertising,
-                analytics, or any secondary purposes.
+                On iOS, Hoemp may use iCloud to synchronize your progress between your
+                Apple devices, if iCloud is enabled on your device and available for the
+                app.
             </p>
-
-            <h2>5. Data collection</h2>
-            <p>Hoemp does not collect or store personal data.</p>
             <p>
-                Some anonymous usage statistics may be collected automatically by
-                platform providers (such as app stores). These are outside of our control
-                and are not stored by Hoemp.
+                This data is stored in your own iCloud account. Hoemp does not operate
+                servers that receive or store this data.
             </p>
 
-            <h2>6. Data retention</h2>
+            <h2>5. Android Backup</h2>
+            <p>
+                On Android, your locally stored app data may be included in Android’s
+                system backup, depending on your device settings and Google account
+                backup configuration.
+            </p>
+            <p>
+                This backup is managed by Android and Google. Hoemp does not control when
+                backups are created or restored.
+            </p>
+
+            <h2>6. Data collection</h2>
+            <p>
+                Hoemp does not collect or store personal data on its own servers.
+            </p>
+            <p>
+                Some anonymous usage statistics or crash information may be collected
+                automatically by platform providers, such as app stores or operating
+                systems. This is outside of Hoemp’s control and is not stored by Hoemp.
+            </p>
+
+            <h2>7. Data retention</h2>
             <p>
                 Since Hoemp does not operate backend servers or store personal data, we
-                do not retain any user data.
+                do not retain user data on our own infrastructure.
+            </p>
+            <p>
+                Data stored locally, in iCloud, in Android Backup, or in exported files
+                remains under your control and the control of the relevant platform
+                provider.
             </p>
 
-            <h2>7. Data deletion</h2>
+            <h2>8. Data deletion</h2>
             <p>
-                You can revoke Hoemp’s access to your Google account at any time via
-                your Google Account settings.
+                You can delete locally stored app data by deleting the app or clearing
+                the app’s data through your device settings.
             </p>
             <p>
-                You may also delete any files created by Hoemp directly from your Google
-                Drive.
+                You can manage iCloud data through your Apple device settings and Android
+                backup data through your Android or Google account settings.
             </p>
 
-            <h2>8. Security</h2>
+            <h2>9. Security</h2>
             <p>
-                We rely on Google’s secure authentication and authorization systems.
-                While we take reasonable care in design, no digital system can be
+                Hoemp uses platform-provided storage, backup, and sync mechanisms. While
+                we take reasonable care in app design, no digital system can be
                 guaranteed to be completely secure.
             </p>
 
-            <h2>9. Changes to this policy</h2>
+            <h2>10. Changes to this policy</h2>
             <p>
                 We may update this Privacy Policy from time to time. Updates will be
                 posted on this page with a revised date.
             </p>
 
-            <h2>10. Contact</h2>
+            <h2>11. Contact</h2>
             <p>If you have any questions, you can contact us at:</p>
             <a className="privacy-email" href="mailto:hoemp123@gmail.com">
                 hoemp123@gmail.com
@@ -159,118 +153,111 @@ function DutchPolicy() {
     return (
         <>
             <h1>Privacybeleid</h1>
-            <p className="privacy-updated">Laatst bijgewerkt: 25 april 2026</p>
+            <p className="privacy-updated">Laatst bijgewerkt: 2 mei 2026</p>
 
             <p className="privacy-intro">
                 Hoemp is ontworpen om zo weinig mogelijk gegevens te gebruiken. We
-                draaien geen eigen backendservers en slaan geen persoonsgegevens op. Dit
-                privacybeleid legt uit welke beperkte gegevens betrokken zijn wanneer je
-                de app gebruikt.
+                gebruiken geen eigen backendservers en slaan geen
+                persoonsgegevens op onze eigen infrastructuur op.
             </p>
 
             <h2>1. Overzicht</h2>
             <p>
-                Hoemp gebruikt geen eigen backendservers. Alle functionaliteit draait
-                lokaal op je apparaat of rechtstreeks via vertrouwde externe diensten
-                zoals Google.
+                Hoemp gebruikt geen eigen backendservers. De app slaat je voortgang
+                lokaal op je apparaat op en kan gebruikmaken van back-up- of
+                synchronisatiediensten van het platform, zoals iCloud op iOS en Android
+                Backup op Android.
             </p>
             <p>
-                Daardoor verzamelen, bewaren of verwerken wij geen persoonsgegevens op
-                onze eigen infrastructuur.
+                Wij verzamelen, bewaren, verkopen of delen geen persoonsgegevens op onze
+                eigen infrastructuur.
             </p>
 
-            <h2>2. Inloggen met Google</h2>
-            <p>Je kunt ervoor kiezen om in te loggen met je Google-account. Dit is optioneel.</p>
+            <h2>2. Geen login nodig</h2>
             <p>
-                Wanneer je inlogt, kan Google basisprofielinformatie delen, zoals je
-                naam en e-mailadres.
-            </p>
-            <p>
-                Omdat Hoemp geen backendservers gebruikt, wordt deze informatie niet
-                door ons opgeslagen en alleen tijdelijk gebruikt om je sessie te
-                authenticeren.
+                Hoemp vereist niet dat je inlogt met een account
+                van een externe aanbieder om de app te gebruiken.
             </p>
 
-            <h2>3. Toegang tot Google Drive</h2>
+            <h2>3. Lokale opslag</h2>
             <p>
-                Hoemp kan toestemming vragen voor toegang tot je Google Drive om
-                kernfunctionaliteit mogelijk te maken, zoals het aanmaken, bewerken en
-                verwijderen van bestanden.
-            </p>
-
-            <div className="privacy-highlight">
-                <strong>Belangrijk:</strong> Hoemp gebruikt Google Drive-toegang alleen
-                om acties uit te voeren die jij expliciet start. We gebruiken je
-                bestanden niet voor analytics, advertenties, profilering of andere
-                niet-gerelateerde doeleinden.
-            </div>
-
-            <p>
-                Hoemp gebruikt geen eigen backendservers en slaat geen kopieën van je
-                Google Drive-bestanden op.
+                Je voortgang wordt lokaal op je apparaat opgeslagen met app-opslag die
+                door het besturingssysteem wordt geleverd.
             </p>
             <p>
-                Alle bestandsacties verlopen rechtstreeks tussen jouw apparaat en de
-                infrastructuur van Google. Je gegevens blijven altijd binnen je eigen
-                Google-account.
+                Deze gegevens kunnen bestaan uit je appvoortgang, instellingen en andere
+                kleine gegevens die nodig zijn om de app te laten werken.
             </p>
 
-            <ul>
-                <li>Bestanden aanmaken in je Google Drive</li>
-                <li>Bestanden bewerken die door de app worden gebruikt</li>
-                <li>Bestanden verwijderen wanneer jij daarvoor kiest</li>
-            </ul>
-
-            <h2>4. Hoe we Google-gebruikersgegevens gebruiken</h2>
-            <p>Google-gebruikersgegevens worden alleen gebruikt om:</p>
-            <ul>
-                <li>Je te authenticeren tijdens het inloggen</li>
-                <li>Interactie met je Google Drive mogelijk te maken</li>
-                <li>De kernfunctionaliteit van de app te leveren</li>
-            </ul>
+            <h2>4. iCloud-synchronisatie op iOS</h2>
             <p>
-                We verkopen, delen of gebruiken Google-gebruikersgegevens niet voor
-                advertenties, analytics of andere secundaire doeleinden.
-            </p>
-
-            <h2>5. Gegevensverzameling</h2>
-            <p>Hoemp verzamelt of bewaart geen persoonsgegevens.</p>
-            <p>
-                Sommige anonieme gebruiksstatistieken kunnen automatisch worden
-                verzameld door platformaanbieders, zoals appstores. Dit valt buiten onze
-                controle en wordt niet door Hoemp opgeslagen.
-            </p>
-
-            <h2>6. Bewaartermijn</h2>
-            <p>
-                Omdat Hoemp geen backendservers gebruikt en geen persoonsgegevens
-                opslaat, bewaren wij geen gebruikersgegevens.
-            </p>
-
-            <h2>7. Gegevens verwijderen</h2>
-            <p>
-                Je kunt de toegang van Hoemp tot je Google-account op elk moment intrekken
-                via je Google-accountinstellingen.
+                Op iOS kan Hoemp iCloud gebruiken om je voortgang tussen je Apple-apparaten
+                te synchroniseren, als iCloud op je apparaat is ingeschakeld en beschikbaar
+                is voor de app.
             </p>
             <p>
-                Je kunt bestanden die door Hoemp zijn aangemaakt ook rechtstreeks uit je
-                Google Drive verwijderen.
+                Deze gegevens worden opgeslagen in je eigen iCloud-account. Hoemp gebruikt
+                geen eigen servers die deze gegevens ontvangen of opslaan.
             </p>
 
-            <h2>8. Beveiliging</h2>
+            <h2>5. Android Backup</h2>
             <p>
-                We vertrouwen op de beveiligde authenticatie- en autorisatiesystemen van
-                Google. Hoewel we zorgvuldig ontwerpen, kan geen enkel digitaal systeem
-                volledig veilig worden gegarandeerd.
+                Op Android kunnen je lokaal opgeslagen appgegevens worden meegenomen in de
+                systeemback-up van Android, afhankelijk van je apparaatinstellingen en de
+                back-upinstellingen van je Google-account.
+            </p>
+            <p>
+                Deze back-up wordt beheerd door Android en Google. Hoemp bepaalt niet
+                wanneer back-ups worden gemaakt of teruggezet.
             </p>
 
-            <h2>9. Wijzigingen in dit beleid</h2>
+            <h2>6. Gegevensverzameling</h2>
+            <p>
+                Hoemp verzamelt of bewaart geen persoonsgegevens op eigen servers.
+            </p>
+            <p>
+                Sommige anonieme gebruiksstatistieken of crashinformatie kunnen
+                automatisch worden verzameld door platformaanbieders, zoals appstores of
+                besturingssystemen. Dit valt buiten de controle van Hoemp en wordt niet
+                door Hoemp opgeslagen.
+            </p>
+
+            <h2>7. Bewaartermijn</h2>
+            <p>
+                Omdat Hoemp geen backendservers gebruikt en geen persoonsgegevens opslaat,
+                bewaren wij geen gebruikersgegevens op onze eigen infrastructuur.
+            </p>
+            <p>
+                Gegevens die lokaal, in iCloud, in Android Backup of in exportbestanden
+                worden opgeslagen, blijven onder jouw controle en onder de controle van de
+                betreffende platformaanbieder.
+            </p>
+
+            <h2>8. Gegevens verwijderen</h2>
+            <p>
+                Je kunt lokaal opgeslagen appgegevens verwijderen door de app te
+                verwijderen of de appgegevens te wissen via de instellingen van je
+                apparaat.
+            </p>
+            <p>
+                Je kunt iCloud-gegevens beheren via de instellingen van je Apple-apparaat
+                en Android-back-upgegevens via je Android- of Google-accountinstellingen.
+            </p>
+
+            <h2>9. Beveiliging</h2>
+            <p>
+                Hoemp gebruikt opslag-, back-up- en synchronisatiemechanismen die door
+                het platform worden geleverd. Hoewel we zorgvuldig ontwerpen, kan geen
+                enkel digitaal systeem volledig veilig worden gegarandeerd.
+            </p>
+
+            <h2>10. Wijzigingen in dit beleid</h2>
             <p>
                 We kunnen dit privacybeleid van tijd tot tijd bijwerken. Updates worden
                 op deze pagina geplaatst met een aangepaste datum.
             </p>
 
-            <h2>10. Contact</h2>
+            <h2>11. Contact</h2>
             <p>Heb je vragen over dit privacybeleid? Neem dan contact met ons op via:</p>
             <a className="privacy-email" href="mailto:hoemp123@gmail.com">
                 hoemp123@gmail.com
