@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function HomePage() {
     const instagramUrl = 'https://www.instagram.com/hoemp.app/'
+    const mollieUrl = 'https://payment-links.mollie.com/payment/XqWmpvcX6idGscWqKpFHK'
 
     return (
         <div className="landing-page">
@@ -17,9 +18,7 @@ export default function HomePage() {
                 </h1>
 
                 <p className="landing-description">
-                    Wil je weten welke vogel je hoort fluiten, roepen of 'hoemp' zeggen?
-                    Met Hoemp leer je vogelgeluiden herkennen op een eenvoudige en leuke
-                    manier. Volg ons op Instagram{' '}
+                    Volg ons op Instagram{' '}
                     <a
                         href={instagramUrl}
                         target="_blank"
@@ -28,16 +27,16 @@ export default function HomePage() {
                     >
                         @hoemp.app
                     </a>{' '}
-                    en blijf op de hoogte van de ontwikkelingen.
+                    om op de hoogte te blijven van de laatste ontwikkelingen. Enthousiast over Hoemp? Met jouw steun kunnen we de app blijven verbeteren en uitbreiden.
                 </p>
 
                 <a
-                    href={instagramUrl}
+                    href={mollieUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-button"
                 >
-                    Volg ons op Instagram!
+                    Steun Hoemp!
                 </a>
             </div>
 
