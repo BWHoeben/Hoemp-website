@@ -16,4 +16,9 @@ body {
 
 #root {
   min-height: 100vh;
+  --bg-color-4: #ffdd99;
+  --text-color-4: #9d2200;
+  --button-padding: 0.2em 0.4em;
+  --link-bg-color-3: #048575;
+  --bg-color-3: #d9f7ac;
 }

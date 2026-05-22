@@ -1,0 +1,93 @@
+.celebration-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color-4);
+    padding-top: 1.375rem;
+    margin-top: 2rem;
+
+    .badge-shape {
+        margin-top: 5%;
+        width: 60%;
+        height: -webkit-fill-available;
+        svg {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .confetti {
+        position: absolute;
+        background-image: url('./confetti.svg');
+        background-repeat: no-repeat;
+        background-size: 90vw auto;  /* 90% of viewport width */
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        /*height: calc(100% - 1.5rem);*/
+        pointer-events: none;
+        background-position-x: center;
+        background-position-y: top;
+    }
+
+    .background-circle {
+        z-index: 0;
+    }
+
+    .celebration-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        z-index: 1;
+        height: -webkit-fill-available;
+
+        h2 {
+            display: block;
+            /*font-size: 1.5em;*/
+            margin-block-start: 1.14em;
+            margin-block-end: 1.14em;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            /*font-weight: bold;*/
+            unicode-bidi: isolate;
+
+            line-height: 100%;
+            text-align: center;
+            width: 68%;
+            margin-bottom: 1rem;
+
+
+            font-family: Zain, sans-serif;
+            font-weight: 400;
+            font-size: 1.14rem;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+
+            line-height: 1.1;
+            text-align: center;
+
+
+            font-family: Afacad, sans-serif;
+            font-weight: 700;
+            font-size: 2.255rem;
+            color: white;
+        }
+
+        p {
+            margin: 1.5rem 0.62rem;
+            line-height: 1;
+            text-align: center;
+            font-family: Zain, sans-serif;
+            font-weight: 300;
+            font-size: 1.375rem;
+            color: white;
+        }
+    }
+}

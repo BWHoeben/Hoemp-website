@@ -1,0 +1,10 @@
+.background-circle {
+    position: fixed;
+    left: 50%;
+    width: 200vw;
+    height: 200vw;
+    border-radius: 50%;
+    transform: translate(-50%, -0%);
+    z-index: -1;
+    pointer-events: none;
+}

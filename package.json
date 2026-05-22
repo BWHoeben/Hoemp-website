@@ -13,7 +13,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@fontsource/afacad": "^5.2.10",
+    "@fontsource/afacad": "5.2.8",
+    "@fontsource/zain": "5.2.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.14.2"
