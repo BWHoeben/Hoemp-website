@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export default function HomePage() {
     const instagramUrl = 'https://www.instagram.com/hoemp.app/'
-    const mollieUrl = 'https://payment-links.mollie.com/payment/XqWmpvcX6idGscWqKpFHK'
+    const mollieUrl = 'https://payment-links.mollie.com/payment/4XhUFhrrns5YmvhiVATuT'
 
     return (
         <main className="landing-page">
