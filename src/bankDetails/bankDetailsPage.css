@@ -1,0 +1,28 @@
+.bank-details-page {
+    background: #F1F9EA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bank-details-page-content {
+        background: white;
+        padding: 2rem;
+        border-radius: 2rem;
+        width: 90%;
+        max-width: 500px;
+
+        height: fit-content;
+
+        h1 {
+            font-size: 3rem;
+            color: #2E5553;
+        }
+
+        p {
+            color: #2E5553;
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.logo-with-text {
+    display: flex;
+    gap: 0.5rem;
+
+    span {
+        color: #048575;
+        align-content: center;
+        font-weight: bold;
+    }
+}

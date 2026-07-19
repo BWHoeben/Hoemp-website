@@ -1,0 +1,57 @@
+.bank-details-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0.91rem;
+    padding: 1rem;
+    background: #F7F7EF;
+    margin-top: 2rem;
+
+    .copyable-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #D9D9D9;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        span {
+            color: #2E5553;
+            font-family: Zain, sans-serif;
+            line-height: 1.2rem;
+            font-size: 1.2rem;
+        }
+
+        span.label {
+            font-weight: 400;
+        }
+        span.value {
+            font-weight: 700;
+        }
+
+        button {
+            color: #1B4846;
+            background: #CBFF81;
+            border: none;
+            margin: 0.5rem 0;
+            padding: 0.64rem 1.75rem;
+            border-radius: 2rem;
+            width: fit-content;
+            font-weight: bolder;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    }
+}

@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 
 export default function HomePage() {
     const instagramUrl = 'https://www.instagram.com/hoemp.app/'
-    const mollieUrl = 'https://payment-links.mollie.com/payment/4XhUFhrrns5YmvhiVATuT'
 
     return (
         <main className="landing-page">
@@ -34,16 +33,9 @@ export default function HomePage() {
                     over Hoemp? Met jouw steun kunnen we de app blijven verbeteren en
                     uitbreiden.
                 </p>
-
-                <a
-                    href={mollieUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cta-button"
-                    aria-label="Steun Hoemp via Mollie, opent in een nieuw tabblad"
-                >
+                <Link to={"/bankDetails"} className="cta-button" aria-label="Steun Hoemp via bankoverschrijving">
                     Steun Hoemp!
-                </a>
+                </Link>
             </section>
 
             <figure className="hero-image-container">
