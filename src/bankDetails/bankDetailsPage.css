@@ -1,5 +1,11 @@
 .bank-details-page {
-    background: #F1F9EA;
+    background: linear-gradient(
+            to bottom,
+            #006659 0%,
+            #006659 50%,
+            #F1F9EA 50%,
+            #F1F9EA 100%
+    );
     width: 100vw;
     height: 100vh;
     display: flex;
