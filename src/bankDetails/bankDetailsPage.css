@@ -6,13 +6,17 @@
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 500px) {
+        align-items: start;
+        padding-top: 5%;
+    }
+
     .bank-details-page-content {
         background: white;
         padding: 2rem;
         border-radius: 2rem;
         width: 90%;
         max-width: 500px;
-
         height: fit-content;
 
         h1 {
