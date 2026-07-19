@@ -1,10 +1,12 @@
 import BankDetails from "./BankDetails.tsx";
 import "./BankDetailsPage.css";
 import LogoWithText from "./LogoWithText.tsx";
+import BackgroundGraphic from "../BackgroundGraphic.tsx";
 
 export default function BankDetailsPage() {
     return (
         <div className="bank-details-page">
+            <BackgroundGraphic />
             <div className="bank-details-page-content">
                 <LogoWithText text="Hoemp!" />
                 <h1>Steun Hoemp!</h1>
