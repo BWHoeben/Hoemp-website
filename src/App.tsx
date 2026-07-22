@@ -1,4 +1,4 @@
-import {HashRouter, Routes, Route} from "react-router-dom";
+import {Routes, Route, BrowserRouter} from "react-router-dom";
 import HomePage from "./Site";
 import PrivacyPolicy from "./privacyPolicy/PrivacyPolicy";
 import ThankYou from "./ThankYou.tsx";
@@ -8,14 +8,14 @@ import {ToastProvider} from "./toast/ToastProvider.tsx";
 function App() {
     return (
         <ToastProvider>
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/privacyPolicy" element={<PrivacyPolicy/>}/>
                     <Route path="/bedankt" element={<ThankYou/>}/>
-                    <Route path="/bankDetails" element={<BankDetailsPage/>}/>
+                    <Route path="/donate" element={<BankDetailsPage/>}/>
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         </ToastProvider>
     );
 }

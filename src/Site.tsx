@@ -33,7 +33,7 @@ export default function HomePage() {
                     over Hoemp? Met jouw steun kunnen we de app blijven verbeteren en
                     uitbreiden.
                 </p>
-                <Link to={"/bankDetails"} className="cta-button" aria-label="Steun Hoemp via bankoverschrijving">
+                <Link to="/donate" className="cta-button" aria-label="Steun Hoemp via bankoverschrijving">
                     Steun Hoemp!
                 </Link>
             </section>
