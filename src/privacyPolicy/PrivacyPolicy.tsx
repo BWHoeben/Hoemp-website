@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./PrivacyPolicy.css";
 import { useLanguage } from "../i18n";
 
