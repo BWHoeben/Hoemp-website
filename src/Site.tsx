@@ -3,38 +3,52 @@ import heroImage from './assets/images/hero-image.png'
 import googleBadge from './assets/images/google_badge.svg'
 import appleBadge from './assets/images/apple_badge.svg'
 import { Link } from 'react-router-dom'
+import { useLanguage } from './i18n'
 
 export default function HomePage() {
+    const [language] = useLanguage()
+    const isDutch = language === 'nl'
     const instagramUrl = 'https://www.instagram.com/hoemp.app/'
 
     return (
         <main className="landing-page">
             <section className="landing-content" aria-labelledby="page-title">
                 <p className="coming-soon">
-                    Beschikbaar in de App Store en Google Play Store
+                    {isDutch
+                        ? 'Beschikbaar in de App Store en Google Play Store'
+                        : 'Available in the App Store and Google Play Store'}
                 </p>
 
                 <h1 id="page-title" className="landing-headline">
-                    Leer vogelgeluiden met Hoemp<span className="exclamation">!</span>
+                    {isDutch ? 'Leer vogelgeluiden met Hoemp' : 'Learn bird sounds with Hoemp'}
+                    <span className="exclamation">!</span>
                 </h1>
 
                 <p className="landing-description">
-                    Volg ons op Instagram{' '}
+                    {isDutch ? 'Volg ons op Instagram ' : 'Follow us on Instagram '}
                     <a
                         href={instagramUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="instagram-handle"
-                        aria-label="Volg Hoemp op Instagram, opent in een nieuw tabblad"
+                        aria-label={isDutch
+                            ? 'Volg Hoemp op Instagram, opent in een nieuw tabblad'
+                            : 'Follow Hoemp on Instagram, opens in a new tab'}
                     >
                         @hoemp.app
                     </a>{' '}
-                    om op de hoogte te blijven van de laatste ontwikkelingen. Enthousiast
-                    over Hoemp? Met jouw steun kunnen we de app blijven verbeteren en
-                    uitbreiden.
+                    {isDutch
+                        ? 'om op de hoogte te blijven van de laatste ontwikkelingen. Enthousiast over Hoemp? Met jouw steun kunnen we de app blijven verbeteren en uitbreiden.'
+                        : 'to stay up to date with the latest developments. Excited about Hoemp? Your support helps us continue to improve and expand the app.'}
                 </p>
-                <Link to="/donate" className="cta-button" aria-label="Steun Hoemp via bankoverschrijving">
-                    Steun Hoemp!
+                <Link
+                    to="/donate"
+                    className="cta-button"
+                    aria-label={isDutch
+                        ? 'Steun Hoemp via bankoverschrijving'
+                        : 'Support Hoemp via bank transfer'}
+                >
+                    {isDutch ? 'Steun Hoemp!' : 'Support Hoemp!'}
                 </Link>
             </section>
 
@@ -46,12 +60,14 @@ export default function HomePage() {
                 />
             </figure>
 
-            <nav className="store-badges" aria-label="Download Hoemp">
+            <nav className="store-badges" aria-label={isDutch ? 'Download Hoemp' : 'Download Hoemp'}>
                 <a
                     href="https://play.google.com/store/apps/details?id=com.hoemp.app"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Download Hoemp in de Google Play Store, opent in een nieuw tabblad"
+                    aria-label={isDutch
+                        ? 'Download Hoemp in de Google Play Store, opent in een nieuw tabblad'
+                        : 'Download Hoemp from the Google Play Store, opens in a new tab'}
                 >
                     <img src={googleBadge} alt="" aria-hidden="true" />
                 </a>
@@ -60,7 +76,9 @@ export default function HomePage() {
                     href="https://apps.apple.com/nl/app/hoemp/id6748967906"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Download Hoemp in de App Store, opent in een nieuw tabblad"
+                    aria-label={isDutch
+                        ? 'Download Hoemp in de App Store, opent in een nieuw tabblad'
+                        : 'Download Hoemp from the App Store, opens in a new tab'}
                 >
                     <img src={appleBadge} alt="" aria-hidden="true" />
                 </a>
@@ -68,7 +86,7 @@ export default function HomePage() {
 
             <footer className="landing-footer">
                 <Link to="/privacyPolicy">
-                    Bekijk ons privacybeleid
+                    {isDutch ? 'Bekijk ons privacybeleid' : 'View our privacy policy'}
                 </Link>
             </footer>
         </main>
