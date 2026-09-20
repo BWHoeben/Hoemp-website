@@ -1,8 +1,8 @@
-import { useState } from "react";
 import "./PrivacyPolicy.css";
+import { useLanguage } from "../i18n";
 
 export default function PrivacyPolicy() {
-    const [language, setLanguage] = useState<"en" | "nl">("en");
+    const [language, setLanguage] = useLanguage();
     const isDutch = language === "nl";
 
     return (
