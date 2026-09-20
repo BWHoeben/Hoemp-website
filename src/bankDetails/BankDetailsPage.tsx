@@ -1,5 +1,5 @@
 import BankDetails from "./BankDetails.tsx";
-import "./BankDetailsPage.css";
+import "./bankDetailsPage.css";
 import LogoWithText from "./LogoWithText.tsx";
 import BackgroundGraphic from "../BackgroundGraphic.tsx";
 import { useLanguage } from "../i18n";

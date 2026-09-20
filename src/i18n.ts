@@ -3,13 +3,9 @@ import { useEffect, useState } from "react";
 export type Language = "en" | "nl";
 
 export function detectLanguage(): Language {
-    const languages = navigator.languages?.length
-        ? navigator.languages
-        : [navigator.language];
+    const language = navigator.languages?.[0] ?? navigator.language;
 
-    return languages.some((language) => language.toLowerCase().startsWith("nl"))
-        ? "nl"
-        : "en";
+    return language.toLowerCase().startsWith("nl") ? "nl" : "en";
 }
 
 export function useLanguage() {
