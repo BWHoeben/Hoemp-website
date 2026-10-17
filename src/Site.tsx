@@ -3,11 +3,10 @@ import heroImage from './assets/images/hero-image.png'
 import googleBadge from './assets/images/google_badge.svg'
 import appleBadge from './assets/images/apple_badge.svg'
 import { Link } from 'react-router-dom'
-import {translations} from "./translations.ts";
+import useTranslation from "./useTranslation.ts";
 
 export default function HomePage() {
-    const language = navigator.language.toLowerCase().split('-')[0]
-    const t = language === 'nl' ? translations.nl : translations.en
+    const t = useTranslation()
     const instagramUrl = `https://www.instagram.com/${t.instaHandle}/`
 
     return (
