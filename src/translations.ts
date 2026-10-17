@@ -1,0 +1,34 @@
+export const translations = {
+    nl: {
+        availability: 'Beschikbaar in de App Store en Google Play Store',
+        headline: 'Leer vogelgeluiden met Hoemp',
+        followUs: 'Volg ons op Instagram',
+        description:
+            'om op de hoogte te blijven van de laatste ontwikkelingen. Enthousiast over Hoemp? Met jouw steun kunnen we de app blijven verbeteren en uitbreiden.',
+        instagramLabel: 'Volg Hoemp op Instagram, opent in een nieuw tabblad',
+        instaHandle: 'hoemp.app',
+        donate: 'Steun Hoemp!',
+        donateLabel: 'Steun Hoemp via bankoverschrijving',
+        heroAlt: 'Voorbeeld van de Hoemp-app waarmee je vogelgeluiden leert herkennen',
+        downloadLabel: 'Download Hoemp',
+        googleLabel: 'Download Hoemp in de Google Play Store, opent in een nieuw tabblad',
+        appleLabel: 'Download Hoemp in de App Store, opent in een nieuw tabblad',
+        privacy: 'Bekijk ons privacybeleid',
+    },
+    en: {
+        availability: 'Available on the App Store and Google Play',
+        headline: 'Learn bird sounds with Hoemp',
+        followUs: 'Follow us on Instagram',
+        description:
+            'to stay up to date with the latest developments. Enjoying Hoemp? Your support helps us keep improving and expanding the app.',
+        instagramLabel: 'Follow Hoemp on Instagram, opens in a new tab',
+        instaHandle: 'hoemp.uk',
+        donate: 'Support Hoemp!',
+        donateLabel: 'Support Hoemp via bank transfer',
+        heroAlt: 'Preview of the Hoemp app, which helps you learn to recognise bird sounds',
+        downloadLabel: 'Download Hoemp',
+        googleLabel: 'Download Hoemp on Google Play, opens in a new tab',
+        appleLabel: 'Download Hoemp on the App Store, opens in a new tab',
+        privacy: 'View our privacy policy',
+    },
+} as const
